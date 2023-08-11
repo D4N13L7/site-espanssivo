@@ -9,3 +9,8 @@
     display: flex;
     align-items: center;
 }
+
+
+.cabecalho-titulo {
+    display: none;
+}
