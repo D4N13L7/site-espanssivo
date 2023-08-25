@@ -34,7 +34,7 @@
     top: 100%;
 }
 
-.container-botao:checked~.contaíner-menu {
+.container-botao:checked~.container-menu {
     display: block;
 }
 
