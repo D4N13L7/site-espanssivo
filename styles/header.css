@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 .cabecalho-menu-hamburguer{
     width: 24px;
@@ -18,6 +19,12 @@
 
 .cabecalho-titulo {
     display: none;
+}
+
+.container-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
 }
 
 @media screen and (min-width: 1024px) {
