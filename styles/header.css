@@ -38,6 +38,11 @@
     display: block;
 }
 
+.menu-item .menu-item-titulo {
+    padding: 1em;
+    background-color: var(--branco);
+}
+
 @media screen and (min-width: 1024px) {
     .cabecalho-titulo {
         display: flex;
