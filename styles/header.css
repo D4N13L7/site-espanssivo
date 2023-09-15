@@ -54,6 +54,10 @@
     color:var(--laranja);
 }
 
+.container-botao {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .cabecalho-titulo {
         display: flex;
