@@ -30,4 +30,6 @@
     font-weight: 400;
     text-align: center;
     background-image: url("../img/Pesquisa.svg");
+    background-repeat: no-repeat;
+    background-position: 1em;
 }
