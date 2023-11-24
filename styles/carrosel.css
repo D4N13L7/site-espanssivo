@@ -6,17 +6,64 @@
     font-size: 18px;
     font-weight: 700;
     padding: 1em 0 0.5em 0;
-    }
-    
-    .swiper-button-prev, .swiper-button-next {
-    display: none;
-    }
-    
-    .swiper-slide img {
+}
+
+.swiper-slide img {
     width: 100%;
-    }
-    
-    .swiper-pagination {
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination{
     position: initial;
     margin: 0.5em 0;
-    }
+}
+/*próxima aula */
+.card-descrição{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.card-botões {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botões {
+    display: flex;
+}
+
+.card {
+    border-radius: 10px;
+    background: var(--branco);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 1em;
+    padding: 1em;
+}
+
+.descrição-titulo{
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.descrição-titulo-livro {
+    color: var(--azul-degrade);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.botões-itens {
+    margin: 0 0.5em;
+}
+
+.botões-ancora {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+}
