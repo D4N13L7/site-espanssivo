@@ -1,3 +1,11 @@
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
 .cabecalho-menu-hamburguer {
     width: 24px;
     height: 24px;
@@ -7,12 +15,8 @@
     display: inline-block;
 }
 
-.cabecalho {
-    background-color: var(--branco);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
+.container-imagem {
+    padding: 1em;
 }
 
 .container {
@@ -24,45 +28,38 @@
     display: none;
 }
 
-.container-imagem {
-    padding: 1em;
-}
 
-
-.lista-menu{
+.container-menu {
     display: none;
     position: absolute;
     top: 100%;
     width: 60vw;
 }
 
-.container-botao:checked~.lista-menu {
+.container-botao:checked~.container-menu {
     display: block;
 }
 
-.lista-menu-titulo, .lista-menu-item {
+.menu-item, .menu-item-titulo {
     padding: 1em;
     background-color: var(--branco);
 }
-/* próxima aula */
-.lista-menu-titulo {
+
+.menu-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--azul-degrade);
+}
+
+.menu-item-titulo {
     color: var(--laranja);
-    font-weight: 700;
 }
 
 .container-botao{
     display: none;
 }
 
-.lista-menu-link {
-    background: var(--azul-degrade);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-transform: uppercase;
-}
-
-.container-titulo-negrito {
+.container-titulo-negrito{
     font-weight: 700;
 }
 
@@ -70,8 +67,8 @@
     .cabecalho-titulo {
         display: flex;
     }
-
-    .cabecalho-imagem-transparente {
-        display: none;
-    }
+        .cabecalho-imagem-transparente{
+            display: none;
+        }
+    
 }
