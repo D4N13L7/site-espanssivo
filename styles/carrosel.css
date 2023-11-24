@@ -1,69 +1,36 @@
-.carrossel-titulo {
-    color: var(--laranja);
-    background-color: var(--branco);
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 700;
-    padding: 1em 0 0.5em 0;
-}
-
-.swiper-slide img {
-    width: 100%;
-}
-
-.swiper-button-prev, .swiper-button-next {
-    display: none;
-}
-
-.swiper-pagination{
-    position: initial;
-    margin: 0.5em 0;
-}
-/*próxima aula */
-.card-descrição{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.5em;
-}
-
-.card-botões {
-    display: flex;
-    justify-content: space-between;
-}
-
-.botões {
-    display: flex;
-}
-
-.card {
-    border-radius: 10px;
-    background: var(--branco);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin: 1em;
-    padding: 1em;
-}
-
-.descrição-titulo{
-    color: var(--laranja);
-    font-weight: 700;
-}
-
-.descrição-titulo-livro {
-    color: var(--azul-degrade);
-    font-size: 18px;
-    font-weight: 700;
-    margin: 0.5em 0;
-}
-
-.botões-itens {
-    margin: 0 0.5em;
-}
-
-.botões-ancora {
-    background-color: var(--laranja);
-    padding: 1em 2.2em;
+.banner{
+    background: var(--azul-degrade);
     color: var(--branco);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner-titulo {
+    font-size: 18px;
     font-weight: 700;
-    text-decoration: none;
+}
+
+.banner-texto {
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+    .banner-pesquisa {
+        background-color: transparent;
+        border: 1px solid var(--branco);
+        color: var(--branco);
+        border-radius: 24px;
+        padding: 1em;
+        width: 100%;
+        color: var(--branco);
+    }
+
+.banner-pesquisa::placeholder {
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 400;
+    text-align: center;
+    background-image: url("../img/Pesquisa.svg");
+    background-repeat: no-repeat;
+    background-position: 1em;
 }
